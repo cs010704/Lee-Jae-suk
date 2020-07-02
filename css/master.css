@@ -1,0 +1,44 @@
+*{margin: 0;}
+html, body {width: 100%;}
+
+.logo_form{height: 80px;text-align: center;}
+.logotext_form{color: #000000;font-family: 'Nanum Myeongjo', serif;font-size: 2em;font-weight: 100;letter-spacing: .1em;position: relative;top: 14px;}
+
+.logotext_form a:link{text-decoration: none;color: black;}
+.logotext_form a:visited{color: black;}
+.logotext_form a:active{color: black;}
+.logotext_form a:hover{color: #9b9b9b;}
+
+.menu_form{height: 40px;background-color: #000000;text-align: center;}
+.menutext_form{display: inline-block;margin: 8px 150px ;font-size: 800;}
+
+
+.menutext_form a:link{text-decoration: none;color: white;}
+.menutext_form a:visited{color: white;}
+.menutext_form a:active{color: white;}
+.menutext_form a:hover{color: #9b9b9b;}
+
+#pr{height: 595px;width: 100%;background-size: cover;}
+
+.p1{background-image: url(../img/bg_01.png);}
+.p2{background-image: url(../img/bg_02.png);}
+.p3{background-image: url(../img/bg_03.png);}
+
+.posi1{text-align: center;position: relative;left: 50%; top: 50%;transform: translateX(-20%) translateY(-50%);}
+.posi2{text-align: center;position: relative;left: 50%; top: 50%;transform: translateX(-80%) translateY(-35%);}
+.posi3{text-align: center;position: relative;left: 50%; top: 50%;transform: translateX(-65%) translateY(-50%);}
+.posi1 :hover{transform: scale(1.1);transition: 0.5s;}
+.posi2 :hover{transform: scale(1.1);transition: 0.5s;}
+.posi3 :hover{transform: scale(1.1);transition: 0.5s;}
+
+.footer_form{height: 80px;background-color: #000000;}
+.footertext_form{color: #ffffff;font-family: 'Nanum Myeongjo', serif;font-size: 1em;font-weight: 100;letter-spacing: .1em;text-align: center;position: relative;top: 30%;}
+
+.p01_top{background-image: url(../img/p01_top.png);height: 595px;background-size: cover;}
+.p01_body{text-align: center;}
+
+.p02_top{background-image: url(../img/p02_top.png);height: 595px;background-size: cover;}
+.p02_body{text-align: center;}
+
+.p03_top{background-image: url(../img/p03_top.png);height: 595px;background-size: cover;}
+.p03_body{text-align: center;}
